@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: monospace;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+.main-form{
+    width: 100%;
+    padding: 60px 50px;
+    border: 2px solid #08c;
+    background: #f0f0f0;
+    transform: translate(0%, 35%);
+}
+
+.main-form h1{
+    text-align: center;
+}
+
+.main-form label{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.main-form .form-control{
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 0px;
+}
+
+.main-form .btn-primary{
+    padding: 10px 35px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #08c;
+    color: #ffff;
+    border: 1px solid #08c;
+    border-radius: 0px ;
+}
